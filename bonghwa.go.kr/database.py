@@ -7,12 +7,6 @@ def DB_Connection():
     a = 0
     while a == 0:
         try:
-            connection = pymysql.connect(host='185.142.34.92', 
-            user='ams',
-            password='TgdRKAGedt%h',
-            db='tenders_db', 
-            charset='utf8',
-            cursorclass=pymysql.cursors.DictCursor)
             # connection = pymysql.connect(host = 'localhost', user = "root", passwd = "", db ="gts")
             
             return connection
@@ -23,8 +17,6 @@ def DB_Connection():
             a = 0
             time.sleep(10)
                       
-# thread_id = mydb.thread_id()
-# kill_query(thread_id)
 def kill_query(thread_id):
     try:
         mydb = DB_Connection()
@@ -37,4 +29,3 @@ def kill_query(thread_id):
         mycursor.close()
         mydb.close()
         print(f"Error on KILL QUERY: {close_error}")
-        
