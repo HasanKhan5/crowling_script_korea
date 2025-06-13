@@ -28,7 +28,8 @@ driver.switch_to.frame(iframe)
 This ensures the script can reliably extract data even when content is not in the main DOM.
 
 How to Run
-python MainCalender.py
+
+* python MainCalender.py
 
 Notes
 
