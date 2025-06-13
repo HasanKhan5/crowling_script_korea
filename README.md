@@ -30,6 +30,7 @@ How to Run
 python MainCalender.py
 
 Notes
+
 ^ Ensure chromedriver is installed and in your PATH
 
 ^ DB and S3 credentials must be properly configured
