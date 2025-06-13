@@ -31,8 +31,8 @@ python MainCalender.py
 
 Notes
 
-^ Ensure chromedriver is installed and in your PATH
+* Ensure chromedriver is installed and in your PATH
 
-^ DB and S3 credentials must be properly configured
+* DB and S3 credentials must be properly configured
 
-^ The script is optimized for Korean tender sources (e.g., bonghwa.go.kr)
+* The script is optimized for Korean tender sources (e.g., bonghwa.go.kr)
