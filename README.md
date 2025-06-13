@@ -23,7 +23,7 @@ iframe = driver.find_element(By.XPATH, '//iframe[@id="targetFrame"]')
 
 driver.switch_to.frame(iframe)
 
-# Now scrape inside the iframe
+- Now scrape inside the iframe
 This ensures the script can reliably extract data even when content is not in the main DOM.
 
 How to Run
