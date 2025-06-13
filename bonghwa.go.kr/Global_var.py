@@ -35,5 +35,5 @@ local_table_name = 'asia_tenders_tbl'
 country_code = 'KR'
 exe_no = "PY662"
 is_english = '1' # 0 = English, 1 = Non English
-file_upload =  '1' # 0 = Upload by L2L, 1 = Upload by EXE
+file_upload =  '0' # 0 = Upload by L2L, 1 = Upload by EXE
 memberName = []
